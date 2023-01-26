@@ -7,7 +7,11 @@ const Posts = () => {
       <Post />
       <Post />
       <Post />
-      <h2>asda</h2>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 };

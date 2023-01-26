@@ -8,7 +8,7 @@ const SideBar = () => {
         <img
           src='/image/Ai1.jpg'
           alt='Ai1'
-          // style={{ width: 200, height: 200 }}
+          style={{ width: 200, height: 200 }}
         />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
