@@ -1,9 +1,13 @@
-import { useState } from 'react';
+import Header from './component/header/header';
+import TopBar from './component/topbar/topbar';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className='App'>blog app</div>;
+  return (
+    <>
+      <TopBar />
+      <Header />
+    </>
+  );
 }
 
 export default App;
