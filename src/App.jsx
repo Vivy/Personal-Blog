@@ -1,11 +1,11 @@
-import Header from './component/header/header';
+import Home from './component/pages/home/home';
 import TopBar from './component/topbar/topbar';
 
 function App() {
   return (
     <>
       <TopBar />
-      <Header />
+      <Home />
     </>
   );
 }
