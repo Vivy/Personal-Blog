@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+import TopBar from '../../topbar/topbar';
 import './register.css';
 
 const Register = () => {
@@ -25,7 +27,11 @@ const Register = () => {
         />
         <button className='registerButton'>Register</button>
       </form>
-      <button className='registerLoginButton'>Login</button>
+      <button className='registerLoginButton'>
+        <NavLink className='link' to='login'>
+          Login
+        </NavLink>
+      </button>
     </div>
   );
 };

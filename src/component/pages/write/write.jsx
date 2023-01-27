@@ -1,3 +1,4 @@
+import TopBar from '../../topbar/topbar';
 import './write.css';
 
 const Write = () => {
